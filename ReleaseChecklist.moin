@@ -20,7 +20,7 @@ Tarballs go to: `annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases
  * set NICE_RELEASE to 'no' in configure.ac
  * `git commit -am "version $VERSION"`
  * Generate a signature: `gpg --detach-sign -a $TARBALL`
- * scp $TARBALL annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
+ * scp $TARBALL $TARBALL.asc annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
  * scp -r docs/reference/libnice/html annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
  * Generate the changelog and send the announce to nice@lists.freedesktop.org
   * paste the latest entry of the NEWS file into the announcement
