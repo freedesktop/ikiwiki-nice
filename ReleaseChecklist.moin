@@ -8,6 +8,7 @@ Tarballs go to: `annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases
  * set the NICE_RELEASE to 'yes' in configure.ac
  * Update the NICE_CURRENT, NICE_AGE and NICE_REVISION in configure.ac
  * `git commit -am "version $VERSION"`
+ * `./autogen.sh --enable-gtk-doc`
  * `make check` (partly for one last check, partly to keep gtk-doc happy)
  * `make distcheck`
  * `git tag -s "$VERSION" -m "Libnice release $VERSION"`
