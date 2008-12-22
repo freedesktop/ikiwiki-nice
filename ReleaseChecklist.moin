@@ -12,9 +12,7 @@ Tarballs go to: `annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases
  * `make check` (partly for one last check, partly to keep gtk-doc happy)
  * `make distcheck`
  * `git tag -s "$VERSION" -m "Libnice release $VERSION"`
- * `git push origin`
  * `git push --tags origin`
- * `git push main`
  * `git push --tags main`
  * Increment version in configure.ac by adding a nano version
  * set NICE_RELEASE to 'no' in configure.ac
