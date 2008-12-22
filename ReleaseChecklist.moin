@@ -19,6 +19,6 @@ Tarballs go to: `annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases
  * `git push --tags main`
  * Generate a signature: `gpg --detach-sign -a $TARBALL`
  * scp $TARBALL $TARBALL.asc annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
- * scp -r docs/reference/libnice/html/* annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
+ * scp -r docs/reference/libnice/html/* annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/libnice/
  * Send the announcement to nice@lists.freedesktop.org
   * paste the latest entry of the NEWS file into the announcement
