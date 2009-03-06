@@ -1,7 +1,7 @@
 = libnice =
 == The GLib ICE implementation ==
 
-Libnice is an implementation of the IETF's draft Interactice Connectivity Establishment standard (ICE). It provides GLib-based library, libnice and GStreamer elements.
+Libnice is an implementation of the IETF's draft Interactice Connectivity Establishment standard (ICE). It provides GLib-based library, libnice and [[http://www.gstreamer.net|GStreamer]] elements.
 
 ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks.
 
