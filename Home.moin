@@ -1,8 +1,25 @@
 = libnice =
 == The GLib ICE implementation ==
 
+Libnice is an implementation of the IETF's draft Interactice Connectivity Establishment standard (ICE). It provides GLib-based library, libnice and GStreamer elements.
+
+ICE is useful for applications that want to establish peer-to-peer UDP data streams. It automates the process of traversing NATs and provides security against some attacks.
+
+Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle. 
+
 You can browse the source code at: http://git.collabora.co.uk/?p=libnice.git;a=summary
 
+Mailing list: http://lists.freedesktop.org/mailman/listinfo/nice 
+
+Relevant Standards
+
+ * [[http://tools.ietf.org/html/draft-ietf-mmusic-ice-19 |Latest ICE Draft]]
+ * [[http://tools.ietf.org/html/rfc5389|RFC 5389 (stun)]]
+ * [[http://www.tools.ietf.org/html/draft-ietf-behave-turn|Latest TURN Draft]]
+
 Releases at: http://nice.freedesktop.org/releases/
+
+[[http://farsight.freedesktop.org|Farsight]] is a complete streaming implementation that uses libnice.
+
 ----
 CategoryHomepage
