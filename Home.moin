@@ -7,9 +7,9 @@ ICE is useful for applications that want to establish peer-to-peer UDP data stre
 
 Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle. 
 
-Releases at: http://nice.freedesktop.org/releases/
+There is full [[http://nice.freedesktop.org/libnice/|API documentation]].
 
-You can browse the source code at: http://git.collabora.co.uk/?p=libnice.git;a=summary
+Releases at: http://nice.freedesktop.org/releases/ and you can browse the source code at: http://git.collabora.co.uk/?p=libnice.git;a=summary
 
 Mailing list: http://lists.freedesktop.org/mailman/listinfo/nice 
 
