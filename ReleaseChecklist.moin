@@ -3,6 +3,7 @@ Things to do when making a release.
 Tarballs go to: `annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/$PACKAGE`.
 
 == C code ==
+ * `git checkout master && git merge whatever-branches`
  * summarize important changes in the NEWS files
  * Bump the version number in configure.ac and remove the nano version
  * set the NICE_RELEASE to 'yes' in configure.ac
@@ -12,11 +13,11 @@ Tarballs go to: `annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases
  * `make check` (partly for one last check, partly to keep gtk-doc happy)
  * `make distcheck`
  * `git tag -s "$VERSION" -m "Libnice release $VERSION"`
+ * `git push --tags origin`
+ * `git push --tags main`
  * Increment version in configure.ac by adding a nano version
  * set NICE_RELEASE to 'no' in configure.ac
  * `git commit -am "version $VERSION"`
- * `git push --tags origin`
- * `git push --tags main`
  * Generate a signature: `gpg --detach-sign -a $TARBALL`
  * scp $TARBALL $TARBALL.asc annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
  * scp -r docs/reference/libnice/html/* annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/libnice/
