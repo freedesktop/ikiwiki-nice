@@ -10,7 +10,7 @@ It also allows applications to create reliable streams using a TCP over UDP laye
 
 Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle. 
 
-There is full [[http://nice.freedesktop.org/libnice/|API documentation]].
+There is full [[http://nice.freedesktop.org/libnice/|API documentation]] and a page explain how to use it with [[GStreamer]].
 
 Releases at: http://nice.freedesktop.org/releases/ and you can browse the source code at: http://git.collabora.co.uk/?p=libnice.git;a=summary
 
