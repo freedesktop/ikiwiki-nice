@@ -18,8 +18,8 @@ Tarballs go to: `annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases
  * Increment version in configure.ac by adding a nano version
  * set NICE_RELEASE to 'no' in configure.ac
  * `git commit -am "version $VERSION"`
- * Generate a signature: `gpg --detach-sign -a $TARBALL`
- * scp $TARBALL $TARBALL.asc annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
+ * Generate a signature: `gpg --detach-sign -a libnice-$VERSION.tar.gz`
+ * scp libnice-$VERSION.tar.gz libnice-$VERSION.tar.gz.asc annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/releases/
  * scp -r docs/reference/libnice/html/* annarchy.freedesktop.org:/srv/nice.freedesktop.org/www/libnice/
  * Send the announcement to nice@lists.freedesktop.org
   * paste the latest entry of the NEWS file into the announcement
