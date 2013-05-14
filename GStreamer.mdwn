@@ -7,7 +7,7 @@ libnice works with both GStreamer 0.10 and GStreamer 1.x
  * Create a [[NiceAgent]]
  * Create a stream with nice_add_agent 
  * Create a nicesrc for each component 
- * Set the [[NiceAgent|NiceAgent]], stream id and compoenent id on each nicesrc 
+ * Set the [[NiceAgent]], stream id and compoenent id on each nicesrc 
  * Put the nicesrc elements inside a [[GstPipeline]] and connect them to the elements that will receive the packets, most likely rtpbin 
  * Set the [[GstPipeline]] to the PLAYING state 
  * libnice can now receive packets. 
