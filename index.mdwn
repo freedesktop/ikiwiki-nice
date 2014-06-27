@@ -13,7 +13,7 @@ Existing standards that use ICE include Session Initiation Protocol (SIP) and XM
 
 There is full [[API documentation|http://nice.freedesktop.org/libnice/]] and a page explain how to use it with [[GStreamer]].
 
-Releases can be downloaded at <http://nice.freedesktop.org/releases/> and you can browse the source code at: <http://cgit.collabora.com/git/libnice.git/>
+Releases can be downloaded at <http://nice.freedesktop.org/releases/> and you can browse the source code at: <http://cgit.freedesktop.org/libnice/libnice>
 
 Mailing list: <http://lists.freedesktop.org/mailman/listinfo/nice>
 
