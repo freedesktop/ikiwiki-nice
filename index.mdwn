@@ -11,16 +11,20 @@ ICE is useful for applications that want to establish peer-to-peer UDP data stre
 
 Existing standards that use ICE include Session Initiation Protocol (SIP) and XMPP Jingle.
 
-There is full [[API documentation|http://nice.freedesktop.org/libnice/]] and a page explain how to use it with [[GStreamer]].
+#### Links
 
-Releases can be downloaded at <http://nice.freedesktop.org/releases/> and you can browse the source code at: <http://cgit.freedesktop.org/libnice/libnice>.
+* [[Bug reports in Phabricator|http://phabricator.freedesktop.org/project/view/20/]]
+* [[git repository|http://cgit.freedesktop.org/libnice/libnice]]
+ * [[GitHub mirror|https://github.com/libnice/libnice]] — accepts merge requests but issues should be tracked in Phabricator
+ * [[GitLab mirror|https://gitlab.com/libnice/libnice]]
+* [[Release downloads|http://nice.freedesktop.org/releases/]]
+* [[API documentation|http://nice.freedesktop.org/libnice/]]
+ * Explanation of how to use it with [[GStreamer]]
+* [[Mailing list|http://lists.freedesktop.org/mailman/listinfo/nice]]
 
-There is a GitHub mirror which can be forked, and merge requests can be submitted to: <https://github.com/libnice/libnice>. Similarly, a GitLab mirror exists: <https://gitlab.com/libnice/libnice>. They do not do issue tracking — please [[use Phabricator|http://phabricator.freedesktop.org/project/view/20/]].
+#### Reporting bugs
 
-Bugs should be [[filed on Phabricator|http://phabricator.freedesktop.org/project/view/20/]] (preferred), or can be reported on the mailing list. libnice used to use Bugzilla, but all bugs have now been migrated to Phabricator.
-
-Mailing list: <http://lists.freedesktop.org/mailman/listinfo/nice>
-
+Please [[report bugs using Phabricator|http://phabricator.freedesktop.org/project/view/20/]] (preferred) or [[via the mailing list|http://lists.freedesktop.org/mailman/listinfo/nice]]. [[Patches can be submitted via Phabricator|http://phabricator.freedesktop.org/project/view/20/]] (preferred) or [[GitHub|https://github.com/libnice/libnice]] and [[GitLab|https://gitlab.com/libnice/libnice]] pull requests.
 
 #### Relevant Standards
 
