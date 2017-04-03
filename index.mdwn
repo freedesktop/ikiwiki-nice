@@ -15,7 +15,7 @@ Existing standards that use ICE include Session Initiation Protocol (SIP), XMPP 
 
 * [[Bug reports in Phabricator|http://phabricator.freedesktop.org/project/view/20/]]
 * [[git repository|http://cgit.freedesktop.org/libnice/libnice]]
- * [[GitHub mirror|https://github.com/libnice/libnice]] — accepts merge requests but issues should be tracked in Phabricator
+ * [[GitHub mirror|https://github.com/libnice/libnice]] — merge requests and issues should be fixed on Phabricator, not GitHub
  * [[GitLab mirror|https://gitlab.com/libnice/libnice]]
 * [[Release downloads|http://nice.freedesktop.org/releases/]]
 * [[API documentation|http://nice.freedesktop.org/libnice/]]
