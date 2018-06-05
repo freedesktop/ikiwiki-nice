@@ -13,18 +13,18 @@ Existing standards that use ICE include Session Initiation Protocol (SIP), XMPP 
 
 #### Links
 
-* [[Bug reports in Phabricator|http://phabricator.freedesktop.org/project/view/20/]]
-* [[git repository|http://cgit.freedesktop.org/libnice/libnice]]
- * [[GitHub mirror|https://github.com/libnice/libnice]] — merge requests and issues should be fixed on Phabricator, not GitHub
- * [[GitLab mirror|https://gitlab.com/libnice/libnice]]
-* [[Release downloads|http://nice.freedesktop.org/releases/]]
-* [[API documentation|http://nice.freedesktop.org/libnice/]]
+* [[Bug reports in freedesktop.org GitLab|https://gitlab.freedesktop.org/libnice/libnice/issues/]]
+* [[git repository|https://gitlab.freedesktop.org/libnice/libnice]]
+ * [[GitHub mirror|https://github.com/libnice/libnice]] — merge requests and issues should be filed on GitLab above, not GitHub
+ * [[GitLab.com mirror|https://gitlab.com/libnice/libnice]]
+* [[Release downloads|https://nice.freedesktop.org/releases/]]
+* [[API documentation|https://nice.freedesktop.org/libnice/]]
  * Explanation of how to use it with [[GStreamer]]
-* [[Mailing list|http://lists.freedesktop.org/mailman/listinfo/nice]]
+* [[Mailing list|https://lists.freedesktop.org/mailman/listinfo/nice]]
 
 #### Reporting bugs
 
-Please [[report bugs using Phabricator|http://phabricator.freedesktop.org/project/view/20/]] (preferred) or [[via the mailing list|http://lists.freedesktop.org/mailman/listinfo/nice]]. [[Patches can be submitted via Phabricator|http://phabricator.freedesktop.org/project/view/20/]] (preferred) or [[GitHub|https://github.com/libnice/libnice]] and [[GitLab|https://gitlab.com/libnice/libnice]] pull requests.
+Please [[report bugs using freedesktop.org GitLab|https://gitlab.freedesktop.org/libnice/libnice/issues/]] (preferred) or [[via the mailing list|https://lists.freedesktop.org/mailman/listinfo/nice]]. [[Patches can be submitted via freedesktop.org GitLab|https://gitlab.freedesktop.org/libnice/libnice/merge_requests/]] (preferred) or [[GitHub|https://github.com/libnice/libnice]] or [[GitLab.com|https://gitlab.com/libnice/libnice]] pull requests.
 
 #### Relevant Standards
 
@@ -33,4 +33,4 @@ Please [[report bugs using Phabricator|http://phabricator.freedesktop.org/projec
 * [[STUN (bis) RFC 5389|http://tools.ietf.org/html/rfc5389]]
 * [[TURN RFC 5766|http://tools.ietf.org/html/rfc5766]]
 
-[[Farstream|http://freedesktop.org/wiki/Software/Farstream]] is a complete streaming implementation, build for peer-to-peer audio and video, that uses libnice.
+[[Farstream|https://freedesktop.org/wiki/Software/Farstream]] is a complete streaming implementation, build for peer-to-peer audio and video, that uses libnice.
