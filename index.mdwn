@@ -15,7 +15,7 @@ Existing standards that use ICE include Session Initiation Protocol (SIP), XMPP 
 
 * [[Bug reports in freedesktop.org GitLab|https://gitlab.freedesktop.org/libnice/libnice/issues/]]
 * [[git repository|https://gitlab.freedesktop.org/libnice/libnice]]
- * [[GitHub mirror|https://github.com/libnice/libnice]] — merge requests and issues should be filed on GitLab above, not GitHub
+ * [[GitHub mirror|https://github.com/libnice/libnice]] — merge requests and issues should be filed on the freedesktop GitLab above, not GitHub or GitLab.com
  * [[GitLab.com mirror|https://gitlab.com/libnice/libnice]]
 * [[Release downloads|https://nice.freedesktop.org/releases/]]
 * [[API documentation|https://nice.freedesktop.org/libnice/]]
