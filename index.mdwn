@@ -24,7 +24,7 @@ Existing standards that use ICE include Session Initiation Protocol (SIP), XMPP 
 
 #### Reporting bugs
 
-Please [[report bugs using freedesktop.org GitLab|https://gitlab.freedesktop.org/libnice/libnice/issues/]] (preferred) or [[via the mailing list|https://lists.freedesktop.org/mailman/listinfo/nice]]. [[Patches can be submitted via freedesktop.org GitLab|https://gitlab.freedesktop.org/libnice/libnice/merge_requests/]] (preferred) or [[GitHub|https://github.com/libnice/libnice]] or [[GitLab.com|https://gitlab.com/libnice/libnice]] pull requests.
+Please [[report bugs using freedesktop.org GitLab|https://gitlab.freedesktop.org/libnice/libnice/issues/]] (preferred) or [[via the mailing list|https://lists.freedesktop.org/mailman/listinfo/nice]]. Patches can be submitted via freedesktop.org [[GitLab merge requests|https://gitlab.freedesktop.org/libnice/libnice/merge_requests/]]. They're not accepted on the [[GitHub|https://github.com/libnice/libnice]] or [[GitLab.com|https://gitlab.com/libnice/libnice]] mirrors.
 
 #### Relevant Standards
 
